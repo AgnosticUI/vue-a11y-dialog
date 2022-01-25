@@ -64,7 +64,9 @@
     </div>
   </a11y-dialog>
 </template>
-
+<script setup>
+  import { A11yDialog } from '../dist/vue-a11y-dialog.esm.js'
+</script>
 <script>
   export default {
     name: 'DialogDemo',
